@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Login from './components/auth/Login';
-import LogoutButton from './components/auth/LogoutButton';
+// import LogoutButton from './components/auth/LogoutButton';
 import { Auth0Provider } from '@auth0/auth0-react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // import '../node_modules/react-bootstrap/dist/css/bootstrap.min.css';

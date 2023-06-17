@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Auth0Provider, useAuth0 } from '@auth0/auth0-react';
+import {  useAuth0 } from '@auth0/auth0-react';
 import Footer from './components/Footer/Footer';
 // import content from './components/resources/content';
 // import Content from './components/resources/content';
@@ -9,7 +9,7 @@ import Content from './components/resources/Content'
 import LogoutButton from './components/auth/LogoutButton';
 
 function App() {
-  const { isAuthenticated, user, isLoading } = useAuth0();
+  const { isAuthenticated, isLoading } = useAuth0();
 
 
   if (!isAuthenticated) {
