@@ -19,7 +19,7 @@ const Content = () => {
     },
     {
       language: 'Java DSA',
-      youtubeLink: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ%22',
+      youtubeLink: 'https://www.youtube.com/watch?v=rZ41y93P2Qo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ',
       docLink: 'https://www.tutorialspoint.com/dsa_using_java/index.htm',
       description:"Array, Linked List, Stack, Queue, Binary Tree, Binary Search Tree, Heap, Hashing, Graph."
     },
