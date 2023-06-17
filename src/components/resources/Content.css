@@ -1,0 +1,9 @@
+.card-body {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure the cards stay in a single row */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    padding-bottom: 10px; /* Add some bottom padding to separate the scrollbar from the cards */
+  }
+  .card{
+      scroll-behavior: auto;
+  }
